@@ -5,6 +5,7 @@
 
 #include "Bus8080.h"
 #include "CPU8080.h"
+#include "Display.h"
 #include "RomLoader.h"
 
 SpaceInvadersMachine::SpaceInvadersMachine()
@@ -12,6 +13,7 @@ SpaceInvadersMachine::SpaceInvadersMachine()
     m_logger = Logger::GetInstance();
     m_bus = new Bus8080();
     m_cpu = new CPU8080(m_bus);
+    m_display = nullptr;
 
     m_emulatorRunning = false;
     m_nextInterruptCycle = CYCLES_PER_INTERRUPT;
@@ -32,13 +34,21 @@ SpaceInvadersMachine::~SpaceInvadersMachine()
     delete m_bus;
 }
 
-void SpaceInvadersMachine::Init(const std::filesystem::path& romDirectory)
+void SpaceInvadersMachine::Init(const std::filesystem::path& romPath)
 {
     m_bus->Reset();
     m_cpu->Init();
 
     RomLoader loader;
-    loader.LoadSpaceInvadersRoms(romDirectory, *m_bus);
+
+    if (std::filesystem::is_regular_file(romPath))
+    {
+        loader.LoadRom(romPath, *m_bus, 0x0000, 0x2000);
+    }
+    else
+    {
+        loader.LoadSpaceInvadersRoms(romPath, *m_bus);
+    }
 
     InitPorts();
 
@@ -50,6 +60,8 @@ void SpaceInvadersMachine::Init(const std::filesystem::path& romDirectory)
 
     m_cpu->SetInputHandler([this](uint8_t port) { return ReadPort(port); });
     m_cpu->SetOutputHandler([this](uint8_t port, uint8_t value) { WritePort(port, value); });
+
+    if (m_display) m_display->Init();
 
     m_logger->Log("Space Invaders machine initialized", ELogLevel::INFO);
 }
@@ -84,12 +96,18 @@ void SpaceInvadersMachine::Deinit()
 {
     m_emulatorRunning = false;
     m_cpu->Deinit();
+    if (m_display) m_display->Deinit();
     m_logger->Log("Space Invaders machine deinitialized", ELogLevel::INFO);
 }
 
 void SpaceInvadersMachine::Stop()
 {
     m_emulatorRunning = false;
+}
+
+void SpaceInvadersMachine::SetDisplay(Display* display)
+{
+    m_display = display;
 }
 
 void SpaceInvadersMachine::InitPorts()
@@ -147,6 +165,12 @@ void SpaceInvadersMachine::GenerateInterrupt()
     else
     {
         m_cpu->RequestInterrupt(2);
+
+        if (m_display)
+        {
+            m_display->Draw(m_bus->ReadRange(VIDEO_MEMORY_START, VIDEO_MEMORY_SIZE));
+            if (!m_display->Update()) Stop();
+        }
     }
 
     m_nextInterruptIsMidScreen = !m_nextInterruptIsMidScreen;

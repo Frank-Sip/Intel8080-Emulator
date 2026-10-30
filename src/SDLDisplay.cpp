@@ -3,12 +3,7 @@
 #include <cstdlib>
 #include <string>
 
-DisplaySDL::DisplaySDL()
-    : m_window(nullptr),
-      m_surface(nullptr),
-      m_logger(Logger::GetInstance())
-{
-}
+DisplaySDL::DisplaySDL() : m_window(nullptr), m_surface(nullptr), m_logger(Logger::GetInstance()) {}
 
 DisplaySDL::~DisplaySDL() = default;
 
@@ -20,9 +15,7 @@ void DisplaySDL::Init()
         std::exit(1);
     }
 
-    constexpr int zoomFactor = 10;
-
-    m_window = SDL_CreateWindow("CHIP-8 Emulator", 64 * zoomFactor, 32 * zoomFactor, 0);
+    m_window = SDL_CreateWindow("Space Invaders Emulator", SCREEN_WIDTH * SCALE, SCREEN_HEIGHT * SCALE, 0);
 
     if (!m_window)
     {
@@ -39,12 +32,22 @@ void DisplaySDL::Init()
     }
 }
 
-void DisplaySDL::Draw(uint8_t framebuffer[][64], uint8_t width, uint8_t height)
+void DisplaySDL::Draw(std::span<const uint8_t> videoMemory)
 {
-    constexpr int zoomFactor = 10;
+    if (!m_surface)
+    {
+        m_logger->Log("Cannot draw without an initialized SDL surface", ELogLevel::ERROR);
+        return;
+    }
+
+    if (videoMemory.size() < VIDEO_MEMORY_SIZE)
+    {
+        m_logger->Log("Space Invaders video memory must contain 7168 bytes", ELogLevel::ERROR);
+        return;
+    }
 
     const Uint32 black = SDL_MapSurfaceRGB(m_surface, 0, 0, 0);
-    const Uint32 green = SDL_MapSurfaceRGB(m_surface, 0, 255, 0);
+    const Uint32 white = SDL_MapSurfaceRGB(m_surface, 255, 255, 255);
 
     if (!SDL_FillSurfaceRect(m_surface, nullptr, black))
     {
@@ -52,38 +55,51 @@ void DisplaySDL::Draw(uint8_t framebuffer[][64], uint8_t width, uint8_t height)
         return;
     }
 
-    for (int y = 0; y < height; ++y)
+    for (std::size_t byteIndex = 0; byteIndex < VIDEO_MEMORY_SIZE; byteIndex++)
     {
-        for (int x = 0; x < width; ++x)
+        const uint8_t pixelByte = videoMemory[byteIndex];
+        const int screenX = static_cast<int>(byteIndex / 32);
+        const int verticalByte = static_cast<int>(byteIndex % 32);
+
+        for (int bit = 0; bit < 8; bit++)
         {
-            if (framebuffer[y][x] == 0)
+            if ((pixelByte & (1 << bit)) == 0) continue;
+
+            const int screenY = SCREEN_HEIGHT - 1 - (verticalByte * 8 + bit);
+            SDL_Rect pixelRect{screenX * SCALE, screenY * SCALE, SCALE, SCALE};
+
+            if (!SDL_FillSurfaceRect(m_surface, &pixelRect, white))
             {
-                continue;
+                m_logger->Log("Failed to draw pixel: " + std::string(SDL_GetError()), ELogLevel::ERROR);
+                return;
             }
-
-            SDL_Rect pixelRect{x * zoomFactor, y * zoomFactor, zoomFactor, zoomFactor};
-
-            SDL_FillSurfaceRect(m_surface, &pixelRect, green);
         }
     }
 }
 
-void DisplaySDL::Update()
+bool DisplaySDL::Update()
 {
+    if (!m_window)
+    {
+        m_logger->Log("Cannot update an uninitialized SDL window", ELogLevel::ERROR);
+        return false;
+    }
+
     if (!SDL_UpdateWindowSurface(m_window))
     {
         m_logger->Log("Failed to update window: " + std::string(SDL_GetError()), ELogLevel::ERROR);
+        return false;
     }
 
-    SDL_Event event;
+    SDL_PumpEvents();
 
-    while (SDL_PollEvent(&event))
+    if (SDL_HasEvent(SDL_EVENT_QUIT))
     {
-        if (event.type == SDL_EVENT_QUIT)
-        {
-            m_logger->Log("Closing window", ELogLevel::INFO);
-        }
+        SDL_FlushEvent(SDL_EVENT_QUIT);
+        return false;
     }
+
+    return true;
 }
 
 void DisplaySDL::Deinit()
@@ -95,5 +111,5 @@ void DisplaySDL::Deinit()
         m_surface = nullptr;
     }
 
-    SDL_Quit();
+    SDL_QuitSubSystem(SDL_INIT_VIDEO);
 }

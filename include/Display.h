@@ -2,13 +2,16 @@
 #define DISPLAY_H
 
 #include <cstdint>
+#include <span>
 
 class Display
 {
 public:
+    virtual ~Display() = default;
+
     virtual void Init() = 0;
-    virtual void Draw(uint8_t framebuffer[][64], uint8_t width, uint8_t height) = 0;
-    virtual void Update() = 0;
+    virtual void Draw(std::span<const uint8_t> videoMemory) = 0;
+    virtual bool Update() = 0;
     virtual void Deinit() = 0;
 };
 

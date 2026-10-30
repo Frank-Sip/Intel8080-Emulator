@@ -13,6 +13,7 @@ public:
 
     Bus8080();
     [[nodiscard]] std::uint8_t Read(std::uint16_t address) const noexcept;
+    [[nodiscard]] std::span<const std::uint8_t> ReadRange(std::uint16_t startAddress, std::size_t length) const;
     void Write(std::uint16_t address, std::uint8_t value) noexcept;
     void Load(std::uint16_t startAddress, std::span<const std::uint8_t> data);
     void Reset();

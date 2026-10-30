@@ -1,6 +1,7 @@
 #ifndef SPACE_INVADERS_MACHINE_H
 #define SPACE_INVADERS_MACHINE_H
 
+#include <cstddef>
 #include <cstdint>
 #include <filesystem>
 #include <memory>
@@ -9,14 +10,18 @@
 
 class Bus8080;
 class CPU8080;
+class Display;
 
 class SpaceInvadersMachine
 {
     static constexpr uint64_t CYCLES_PER_INTERRUPT = 16640;
+    static constexpr uint16_t VIDEO_MEMORY_START = 0x2400;
+    static constexpr std::size_t VIDEO_MEMORY_SIZE = 0x1C00;
 
     //Core components
     Bus8080* m_bus;
     CPU8080* m_cpu;
+    Display* m_display;
 
     //Machine state
     bool m_emulatorRunning;
@@ -47,10 +52,11 @@ public:
     SpaceInvadersMachine();
     ~SpaceInvadersMachine();
 
-    void Init(const std::filesystem::path& romDirectory);
+    void Init(const std::filesystem::path& romPath);
     void Run();
     void Deinit();
     void Stop();
+    void SetDisplay(Display* display);
 };
 
 #endif
