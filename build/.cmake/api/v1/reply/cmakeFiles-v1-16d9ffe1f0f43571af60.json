@@ -1229,6 +1229,7 @@
 			"expression" : "F:/GitHub/Repositories/Intel8080 Emulator/src/*.cpp",
 			"paths" : 
 			[
+				"F:/GitHub/Repositories/Intel8080 Emulator/src/Bus8080.cpp",
 				"F:/GitHub/Repositories/Intel8080 Emulator/src/CPU.cpp",
 				"F:/GitHub/Repositories/Intel8080 Emulator/src/KeyboardSDL.cpp",
 				"F:/GitHub/Repositories/Intel8080 Emulator/src/Logger.cpp",

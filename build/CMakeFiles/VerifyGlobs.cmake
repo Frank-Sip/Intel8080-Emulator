@@ -1465,6 +1465,7 @@ endif()
 # SOURCES at CMakeLists.txt:12 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "F:/GitHub/Repositories/Intel8080 Emulator/src/*.cpp")
 set(OLD_GLOB
+  "F:/GitHub/Repositories/Intel8080 Emulator/src/Bus8080.cpp"
   "F:/GitHub/Repositories/Intel8080 Emulator/src/CPU.cpp"
   "F:/GitHub/Repositories/Intel8080 Emulator/src/KeyboardSDL.cpp"
   "F:/GitHub/Repositories/Intel8080 Emulator/src/Logger.cpp"

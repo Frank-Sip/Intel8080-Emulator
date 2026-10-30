@@ -1,4 +1,5 @@
 F:\GitHub\Repositories\Intel8080 Emulator\main.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\main.obj
+F:\GitHub\Repositories\Intel8080 Emulator\src\Bus8080.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\Bus8080.obj
 F:\GitHub\Repositories\Intel8080 Emulator\src\CPU.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\CPU.obj
 F:\GitHub\Repositories\Intel8080 Emulator\src\KeyboardSDL.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\KeyboardSDL.obj
 F:\GitHub\Repositories\Intel8080 Emulator\src\Logger.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\Logger.obj

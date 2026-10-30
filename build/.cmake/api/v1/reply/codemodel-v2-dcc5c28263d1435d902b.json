@@ -84,21 +84,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-441ccdc8565b6f717e4f.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-9d4b8ff89facd3a546b3.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ALL_BUILD::@e7c329919722962a2ad4",
-					"jsonFile" : "target-ALL_BUILD-Debug-2ebcdf9050d9434e8bf9.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-7dedf7c691d6cb03de51.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "SDL3-shared::@e7c329919722962a2ad4",
-					"jsonFile" : "target-SDL3-shared-Debug-20764a16750e419a480f.json",
+					"jsonFile" : "target-SDL3-shared-Debug-7dadd2fbeb881356f8a7.json",
 					"name" : "SDL3-shared",
 					"projectIndex" : 1
 				},
@@ -119,7 +119,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SpaceInvadersEmulator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SpaceInvadersEmulator-Debug-522b5cb41a9a69ae7662.json",
+					"jsonFile" : "target-SpaceInvadersEmulator-Debug-678d181ab8394dcc96c0.json",
 					"name" : "SpaceInvadersEmulator",
 					"projectIndex" : 0
 				},
@@ -215,21 +215,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-441ccdc8565b6f717e4f.json",
+					"jsonFile" : "target-ALL_BUILD-Release-9d4b8ff89facd3a546b3.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ALL_BUILD::@e7c329919722962a2ad4",
-					"jsonFile" : "target-ALL_BUILD-Release-2ebcdf9050d9434e8bf9.json",
+					"jsonFile" : "target-ALL_BUILD-Release-7dedf7c691d6cb03de51.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "SDL3-shared::@e7c329919722962a2ad4",
-					"jsonFile" : "target-SDL3-shared-Release-52bd703272a151afa4a3.json",
+					"jsonFile" : "target-SDL3-shared-Release-c4a03963a99ad9e5ec38.json",
 					"name" : "SDL3-shared",
 					"projectIndex" : 1
 				},
@@ -250,7 +250,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SpaceInvadersEmulator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SpaceInvadersEmulator-Release-86124e6ec6580d046ee8.json",
+					"jsonFile" : "target-SpaceInvadersEmulator-Release-439194fe8265c2f289a1.json",
 					"name" : "SpaceInvadersEmulator",
 					"projectIndex" : 0
 				},
@@ -346,21 +346,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-441ccdc8565b6f717e4f.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-9d4b8ff89facd3a546b3.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ALL_BUILD::@e7c329919722962a2ad4",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-2ebcdf9050d9434e8bf9.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7dedf7c691d6cb03de51.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "SDL3-shared::@e7c329919722962a2ad4",
-					"jsonFile" : "target-SDL3-shared-MinSizeRel-b8710227fd0b7f5ef4f4.json",
+					"jsonFile" : "target-SDL3-shared-MinSizeRel-aaa0b5bcebf17212151c.json",
 					"name" : "SDL3-shared",
 					"projectIndex" : 1
 				},
@@ -381,7 +381,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SpaceInvadersEmulator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SpaceInvadersEmulator-MinSizeRel-e589689eb2e810b730bd.json",
+					"jsonFile" : "target-SpaceInvadersEmulator-MinSizeRel-51abf7dde81ea1663cd4.json",
 					"name" : "SpaceInvadersEmulator",
 					"projectIndex" : 0
 				},
@@ -477,21 +477,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-441ccdc8565b6f717e4f.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-9d4b8ff89facd3a546b3.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ALL_BUILD::@e7c329919722962a2ad4",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-2ebcdf9050d9434e8bf9.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7dedf7c691d6cb03de51.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "SDL3-shared::@e7c329919722962a2ad4",
-					"jsonFile" : "target-SDL3-shared-RelWithDebInfo-f77e335c57dbeebe26ed.json",
+					"jsonFile" : "target-SDL3-shared-RelWithDebInfo-25ab8d89a89e12e10f9c.json",
 					"name" : "SDL3-shared",
 					"projectIndex" : 1
 				},
@@ -512,7 +512,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SpaceInvadersEmulator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SpaceInvadersEmulator-RelWithDebInfo-4c7eaa6d3d885a276187.json",
+					"jsonFile" : "target-SpaceInvadersEmulator-RelWithDebInfo-2ffe1e4604601bef601d.json",
 					"name" : "SpaceInvadersEmulator",
 					"projectIndex" : 0
 				},

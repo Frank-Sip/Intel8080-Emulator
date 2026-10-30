@@ -6,7 +6,7 @@ void CMDLineParser::PrintHelp()
     std::cout << "Usage: emu [options] <rom_file>" << std::endl;
     std::cout << "Options:" << std::endl;
     std::cout << "  -h, --help              Print this help message" << std::endl;
-    std::cout << "  -r, --rom-file-name     Set the rom path to load" << std::endl;
+    std::cout << "  -r, --rom-directory     Set the rom path to load" << std::endl;
     std::cout << "  -l, --log-level         Set the log level (0: NONE, 1: INFO, 2: WARNING, 3: ERROR, 4: DEBUG)" << std::endl;
 }
 
@@ -35,7 +35,7 @@ void CMDLineParser::Parse(int argc, char** argv)
         {
             this -> PrintHelp();
         }
-        else if (aux == "-r" || aux == "--rom-file-name")
+        else if (aux == "-r" || aux == "--rom-directory")
         {
             i++;
             std::string auxName(argv[i]);

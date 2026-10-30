@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/SpaceInvadersEmulator.exe"
+			"path" : "Debug/SpaceInvadersEmulator.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/SpaceInvadersEmulator.pdb"
+			"path" : "Debug/SpaceInvadersEmulator.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -std:c++20 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd"
 				}
 			],
 			"includes" : 
@@ -95,18 +95,19 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 3,
 			"id" : "SDL3-shared::@e7c329919722962a2ad4"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "SpaceInvadersEmulator::@6890427a1f51a3e7e1df",
@@ -115,7 +116,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
 				"role" : "flags"
 			},
 			{
@@ -124,7 +125,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "SDL\\RelWithDebInfo\\SDL3.lib",
+				"fragment" : "SDL\\Debug\\SDL3.lib",
 				"role" : "libraries"
 			},
 			{
@@ -154,7 +155,8 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8
 			]
 		}
 	],
@@ -164,6 +166,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Bus8080.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
