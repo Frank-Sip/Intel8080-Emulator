@@ -1472,6 +1472,7 @@ set(OLD_GLOB
   "F:/GitHub/Repositories/Intel8080 Emulator/src/RomLoader.cpp"
   "F:/GitHub/Repositories/Intel8080 Emulator/src/SDLDisplay.cpp"
   "F:/GitHub/Repositories/Intel8080 Emulator/src/SoundSDL.cpp"
+  "F:/GitHub/Repositories/Intel8080 Emulator/src/SpaceInvadersMachine.cpp"
   "F:/GitHub/Repositories/Intel8080 Emulator/src/cmdLineParser.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

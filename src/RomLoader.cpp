@@ -37,7 +37,6 @@ void RomLoader::LoadRom(const std::filesystem::path& filePath, Bus8080& bus, con
     }
 
     bus.Load(startAddress, data);
-
     m_logger->Log("Successfully loaded ROM: " + std::to_string(data.size()) + " bytes at address " + std::to_string(startAddress), ELogLevel::INFO);
 }
 

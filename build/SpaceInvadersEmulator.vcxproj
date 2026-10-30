@@ -380,6 +380,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\RomLoader.cpp" />
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\SDLDisplay.cpp" />
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\SoundSDL.cpp" />
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\SpaceInvadersMachine.cpp" />
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\cmdLineParser.cpp" />
   </ItemGroup>
   <ItemGroup />

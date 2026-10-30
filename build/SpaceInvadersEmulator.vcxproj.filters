@@ -25,6 +25,9 @@
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\SoundSDL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\SpaceInvadersMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\cmdLineParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
