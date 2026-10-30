@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "SDL3-shared.dir\\Debug\\SDL_gameinputjoystick.obj",
+            "outputs": [
+                "F:\\GitHub\\Repositories\\Intel8080 Emulator\\build\\SDL\\SDL3-shared.dir\\Debug\\vc143.pdb",
+                "SDL3-shared.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

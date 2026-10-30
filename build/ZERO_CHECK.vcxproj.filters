@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\GitHub\Repositories\Intel8080 Emulator\build\CMakeFiles\92a418ec539d45d8e3b2b1f3cd4ea9cd\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BAE9FA28-0A7B-3BE7-9681-E6A213AA148F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

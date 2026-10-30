@@ -1,0 +1,8 @@
+F:\GitHub\Repositories\Intel8080 Emulator\main.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\main.obj
+F:\GitHub\Repositories\Intel8080 Emulator\src\CPU.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\CPU.obj
+F:\GitHub\Repositories\Intel8080 Emulator\src\KeyboardSDL.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\KeyboardSDL.obj
+F:\GitHub\Repositories\Intel8080 Emulator\src\Logger.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\Logger.obj
+F:\GitHub\Repositories\Intel8080 Emulator\src\RomLoader.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\RomLoader.obj
+F:\GitHub\Repositories\Intel8080 Emulator\src\SDLDisplay.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\SDLDisplay.obj
+F:\GitHub\Repositories\Intel8080 Emulator\src\SoundSDL.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\SoundSDL.obj
+F:\GitHub\Repositories\Intel8080 Emulator\src\cmdLineParser.cpp;F:\GitHub\Repositories\Intel8080 Emulator\build\SpaceInvadersEmulator.dir\Debug\cmdLineParser.obj

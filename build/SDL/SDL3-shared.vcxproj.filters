@@ -1,0 +1,1922 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\build\SDL\CMakeFiles\SDL3-shared.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\build\SDL\CMakeFiles\SDL3-shared.dir\cmake_pch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_assert.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_error.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_guid.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_hashtable.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_hints.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_list.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_log.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_properties.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_utils.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\atomic\SDL_atomic.c">
+      <Filter>src\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\atomic\SDL_spinlock.c">
+      <Filter>src\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_audio.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_audiocvt.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_audiodev.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_audioqueue.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_audioresample.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_audiotypecvt.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_mixer.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_wave.c">
+      <Filter>src\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\camera\SDL_camera.c">
+      <Filter>src\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\SDL_core_unsupported.c">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\cpuinfo\SDL_cpuinfo.c">
+      <Filter>src\cpuinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\dynapi\SDL_dynapi.c">
+      <Filter>src\dynapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_categories.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_clipboardevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_displayevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_dropevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_events.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_eventwatch.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_keyboard.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_keymap.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_keysym_to_keycode.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_keysym_to_scancode.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_mouse.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_pen.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_quit.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_scancode_tables.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_touch.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_windowevents.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\imKStoUCS.c">
+      <Filter>src\events</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\filesystem\SDL_filesystem.c">
+      <Filter>src\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\gpu\SDL_gpu.c">
+      <Filter>src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\haptic\SDL_haptic.c">
+      <Filter>src\haptic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\hidapi\SDL_hidapi.c">
+      <Filter>src\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\io\SDL_asyncio.c">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\io\SDL_iostream.c">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\io\generic\SDL_asyncio_generic.c">
+      <Filter>src\io\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\SDL_gamepad.c">
+      <Filter>src\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\SDL_joystick.c">
+      <Filter>src\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\SDL_steam_virtual_gamepad.c">
+      <Filter>src\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\controller_type.c">
+      <Filter>src\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\locale\SDL_locale.c">
+      <Filter>src\locale</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\main\SDL_main_callbacks.c">
+      <Filter>src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\main\SDL_runapp.c">
+      <Filter>src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\misc\SDL_libusb.c">
+      <Filter>src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\misc\SDL_url.c">
+      <Filter>src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\power\SDL_power.c">
+      <Filter>src\power</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\SDL_render.c">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\SDL_render_unsupported.c">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\SDL_yuv_sw.c">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d\SDL_render_d3d.c">
+      <Filter>src\render\direct3d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d\SDL_shaders_d3d.c">
+      <Filter>src\render\direct3d</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d11\SDL_render_d3d11.c">
+      <Filter>src\render\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d11\SDL_shaders_d3d11.c">
+      <Filter>src\render\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\SDL_render_d3d12.c">
+      <Filter>src\render\direct3d12</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\SDL_shaders_d3d12.c">
+      <Filter>src\render\direct3d12</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\gpu\SDL_pipeline_gpu.c">
+      <Filter>src\render\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\gpu\SDL_render_gpu.c">
+      <Filter>src\render\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\gpu\SDL_shaders_gpu.c">
+      <Filter>src\render\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\ngage\SDL_render_ngage.c">
+      <Filter>src\render\ngage</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\opengl\SDL_render_gl.c">
+      <Filter>src\render\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\opengl\SDL_shaders_gl.c">
+      <Filter>src\render\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\opengles2\SDL_render_gles2.c">
+      <Filter>src\render\opengles2</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\opengles2\SDL_shaders_gles2.c">
+      <Filter>src\render\opengles2</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\ps2\SDL_render_ps2.c">
+      <Filter>src\render\ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\psp\SDL_render_psp.c">
+      <Filter>src\render\psp</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_blendfillrect.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_blendline.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_blendpoint.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_drawline.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_drawpoint.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_render_sw.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_triangle.c">
+      <Filter>src\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vitagxm\SDL_render_vita_gxm.c">
+      <Filter>src\render\vitagxm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vitagxm\SDL_render_vita_gxm_memory.c">
+      <Filter>src\render\vitagxm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vitagxm\SDL_render_vita_gxm_tools.c">
+      <Filter>src\render\vitagxm</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vulkan\SDL_render_vulkan.c">
+      <Filter>src\render\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vulkan\SDL_shaders_vulkan.c">
+      <Filter>src\render\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\sensor\SDL_sensor.c">
+      <Filter>src\sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_crc16.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_crc32.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_getenv.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_iconv.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_malloc.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_memcpy.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_memmove.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_memset.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_mslibc.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_murmur3.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_qsort.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_random.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_stdlib.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_string.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_strtokr.c">
+      <Filter>src\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\storage\SDL_storage.c">
+      <Filter>src\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\SDL_thread.c">
+      <Filter>src\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\time\SDL_time.c">
+      <Filter>src\time</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\timer\SDL_timer.c">
+      <Filter>src\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_RLEaccel.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit_0.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit_1.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit_A.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit_N.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit_auto.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit_copy.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit_slow.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_bmp.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_clipboard.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_egl.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_fillrect.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_pixels.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_rect.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_rotate.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_stb.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_stretch.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_surface.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_video.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_video_unsupported.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_vulkan_utils.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_yuv.c">
+      <Filter>src\video</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb_lsx.c">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb_sse.c">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb_std.c">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\dummy\SDL_dummyaudio.c">
+      <Filter>src\audio\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\disk\SDL_diskaudio.c">
+      <Filter>src\audio\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\camera\dummy\SDL_camera_dummy.c">
+      <Filter>src\camera\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\virtual\SDL_virtualjoystick.c">
+      <Filter>src\joystick\virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\dummy\SDL_nullevents.c">
+      <Filter>src\video\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\dummy\SDL_nullframebuffer.c">
+      <Filter>src\video\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\dummy\SDL_nullvideo.c">
+      <Filter>src\video\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\SDL_gameinput.cpp">
+      <Filter>src\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\SDL_hid.c">
+      <Filter>src\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\SDL_immdevice.c">
+      <Filter>src\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\SDL_windows.c">
+      <Filter>src\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\SDL_xinput.c">
+      <Filter>src\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\pch.c">
+      <Filter>src\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\pch_cpp.cpp">
+      <Filter>src\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\main\windows\SDL_sysmain_runapp.c">
+      <Filter>src\main\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\io\windows\SDL_asyncio_windows_ioring.c">
+      <Filter>src\io\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\misc\windows\SDL_sysurl.c">
+      <Filter>src\misc\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\directsound\SDL_directsound.c">
+      <Filter>src\audio\directsound</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\wasapi\SDL_wasapi.c">
+      <Filter>src\audio\wasapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsclipboard.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsevents.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsframebuffer.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsgameinput.cpp">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowskeyboard.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsmessagebox.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsmodes.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsmouse.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsopengl.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsopengles.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsrawinput.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsshape.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsvideo.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsvulkan.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowswindow.c">
+      <Filter>src\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\generic\SDL_syscond.c">
+      <Filter>src\thread\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\generic\SDL_sysrwlock.c">
+      <Filter>src\thread\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\windows\SDL_syscond_cv.c">
+      <Filter>src\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\windows\SDL_sysmutex.c">
+      <Filter>src\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\windows\SDL_sysrwlock_srw.c">
+      <Filter>src\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\windows\SDL_syssem.c">
+      <Filter>src\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\windows\SDL_systhread.c">
+      <Filter>src\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\windows\SDL_systls.c">
+      <Filter>src\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\sensor\windows\SDL_windowssensor.c">
+      <Filter>src\sensor\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\power\windows\SDL_syspower.c">
+      <Filter>src\power\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\locale\windows\SDL_syslocale.c">
+      <Filter>src\locale\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\filesystem\windows\SDL_sysfilesystem.c">
+      <Filter>src\filesystem\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\filesystem\windows\SDL_sysfsops.c">
+      <Filter>src\filesystem\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\storage\generic\SDL_genericstorage.c">
+      <Filter>src\storage\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\storage\steam\SDL_steamstorage.c">
+      <Filter>src\storage\steam</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\time\windows\SDL_systime.c">
+      <Filter>src\time\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\timer\windows\SDL_systimer.c">
+      <Filter>src\timer\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\loadso\windows\SDL_sysloadso.c">
+      <Filter>src\loadso\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\tray\windows\SDL_tray.c">
+      <Filter>src\tray\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_8bitdo.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_combined.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_flydigi.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_gamecube.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_gip.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_lg4ff.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_luna.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_ps3.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_ps4.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_ps5.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_rumble.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_shield.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_sinput.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_stadia.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_steam.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_steam_hori.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_steam_triton.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_steamdeck.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_switch.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_switch2.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_wii.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_xbox360.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_xbox360w.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_xboxone.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapi_zuiki.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_hidapijoystick.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\hidapi\SDL_report_descriptor.c">
+      <Filter>src\joystick\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\haptic\hidapi\SDL_hidapihaptic.c">
+      <Filter>src\haptic\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\haptic\hidapi\SDL_hidapihaptic_lg4ff.c">
+      <Filter>src\haptic\hidapi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\windows\SDL_dinputjoystick.c">
+      <Filter>src\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\windows\SDL_rawinputjoystick.c">
+      <Filter>src\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\windows\SDL_windows_gaming_input.c">
+      <Filter>src\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\windows\SDL_windowsjoystick.c">
+      <Filter>src\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\windows\SDL_xinputjoystick.c">
+      <Filter>src\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\gdk\SDL_gameinputjoystick.cpp">
+      <Filter>src\joystick\gdk</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\haptic\windows\SDL_dinputhaptic.c">
+      <Filter>src\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\haptic\windows\SDL_windowshaptic.c">
+      <Filter>src\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\camera\mediafoundation\SDL_camera_mediafoundation.c">
+      <Filter>src\camera\mediafoundation</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\dialog\SDL_dialog.c">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\dialog\SDL_dialog_utils.c">
+      <Filter>src\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\dialog\windows\SDL_windowsdialog.c">
+      <Filter>src\dialog\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\process\SDL_process.c">
+      <Filter>src\process</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\process\windows\SDL_windowsprocess.c">
+      <Filter>src\process\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenevents.c">
+      <Filter>src\video\offscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenframebuffer.c">
+      <Filter>src\video\offscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenopengles.c">
+      <Filter>src\video\offscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenvideo.c">
+      <Filter>src\video\offscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenvulkan.c">
+      <Filter>src\video\offscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenwindow.c">
+      <Filter>src\video\offscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\tray\SDL_tray_utils.c">
+      <Filter>src\tray</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\gpu\d3d12\SDL_gpu_d3d12.c">
+      <Filter>src\gpu\d3d12</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\gpu\vulkan\SDL_gpu_vulkan.c">
+      <Filter>src\gpu\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\main\generic\SDL_sysmain_callbacks.c">
+      <Filter>src\main\generic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_assert_c.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_error_c.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_hashtable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_hints_c.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_list.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_log_c.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_properties_c.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\SDL_utils_c.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_audio_c.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_audio_channel_converters.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_audiodev_c.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_audioqueue.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_audioresample.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_sysaudio.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\SDL_wave.h">
+      <Filter>src\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\camera\SDL_camera_c.h">
+      <Filter>src\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\camera\SDL_syscamera.h">
+      <Filter>src\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\SDL_core_unsupported.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\cpuinfo\SDL_cpuinfo_c.h">
+      <Filter>src\cpuinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\dynapi\SDL_dynapi.h">
+      <Filter>src\dynapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\dynapi\SDL_dynapi_overrides.h">
+      <Filter>src\dynapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\dynapi\SDL_dynapi_procs.h">
+      <Filter>src\dynapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\dynapi\SDL_dynapi_unsupported.h">
+      <Filter>src\dynapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_categories_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_clipboardevents_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_displayevents_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_dropevents_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_events_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_eventwatch_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_keyboard_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_keymap_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_keysym_to_keycode_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_keysym_to_scancode_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_mouse_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_pen_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_scancode_tables_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_touch_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\SDL_windowevents_c.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\blank_cursor.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\default_cursor.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\imKStoUCS.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\scancodes_darwin.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\scancodes_linux.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\scancodes_windows.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\events\scancodes_xfree86.h">
+      <Filter>src\events</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\filesystem\SDL_filesystem_c.h">
+      <Filter>src\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\filesystem\SDL_sysfilesystem.h">
+      <Filter>src\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\gpu\SDL_sysgpu.h">
+      <Filter>src\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\haptic\SDL_haptic_c.h">
+      <Filter>src\haptic</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\haptic\SDL_syshaptic.h">
+      <Filter>src\haptic</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\hidapi\SDL_hidapi_android.h">
+      <Filter>src\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\hidapi\SDL_hidapi_c.h">
+      <Filter>src\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\hidapi\SDL_hidapi_ios.h">
+      <Filter>src\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\hidapi\SDL_hidapi_libusb.h">
+      <Filter>src\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\hidapi\SDL_hidapi_linux.h">
+      <Filter>src\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\hidapi\SDL_hidapi_mac.h">
+      <Filter>src\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\hidapi\SDL_hidapi_netbsd.h">
+      <Filter>src\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\hidapi\SDL_hidapi_steamxbox.h">
+      <Filter>src\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\hidapi\SDL_hidapi_windows.h">
+      <Filter>src\hidapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\io\SDL_asyncio_c.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\io\SDL_iostream_c.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\io\SDL_sysasyncio.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\SDL_gamepad_c.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\SDL_gamepad_db.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\SDL_joystick_c.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\SDL_steam_virtual_gamepad.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\SDL_sysjoystick.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\controller_list.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\controller_type.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\usb_ids.h">
+      <Filter>src\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\locale\SDL_syslocale.h">
+      <Filter>src\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\main\SDL_main_callbacks.h">
+      <Filter>src\main</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\misc\SDL_libusb.h">
+      <Filter>src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\misc\SDL_sysurl.h">
+      <Filter>src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\power\SDL_syspower.h">
+      <Filter>src\power</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\SDL_d3dmath.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\SDL_render_debug_font.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\SDL_sysrender.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\SDL_yuv_sw_c.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d\D3D9_PixelShader_Palette.h">
+      <Filter>src\render\direct3d</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d\D3D9_PixelShader_Palette_Linear.h">
+      <Filter>src\render\direct3d</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d\D3D9_PixelShader_Palette_Nearest.h">
+      <Filter>src\render\direct3d</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d\D3D9_PixelShader_YUV.h">
+      <Filter>src\render\direct3d</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d\SDL_shaders_d3d.h">
+      <Filter>src\render\direct3d</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d11\D3D11_PixelShader_Advanced.h">
+      <Filter>src\render\direct3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d11\D3D11_PixelShader_Colors.h">
+      <Filter>src\render\direct3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d11\D3D11_PixelShader_Textures.h">
+      <Filter>src\render\direct3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d11\D3D11_VertexShader.h">
+      <Filter>src\render\direct3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d11\SDL_shaders_d3d11.h">
+      <Filter>src\render\direct3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\D3D12_PixelShader_Advanced.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\D3D12_PixelShader_Colors.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\D3D12_PixelShader_Textures.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\D3D12_RootSig_Advanced.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\D3D12_RootSig_Color.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\D3D12_RootSig_Texture.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\D3D12_VertexShader_Advanced.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\D3D12_VertexShader_Color.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\D3D12_VertexShader_Texture.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\SDL_render_d3d12_xbox.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\direct3d12\SDL_shaders_d3d12.h">
+      <Filter>src\render\direct3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\gpu\SDL_gpu_util.h">
+      <Filter>src\render\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\gpu\SDL_pipeline_gpu.h">
+      <Filter>src\render\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\gpu\SDL_shaders_gpu.h">
+      <Filter>src\render\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\metal\SDL_shaders_metal_ios.h">
+      <Filter>src\render\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\metal\SDL_shaders_metal_iphonesimulator.h">
+      <Filter>src\render\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\metal\SDL_shaders_metal_macos.h">
+      <Filter>src\render\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\metal\SDL_shaders_metal_tvos.h">
+      <Filter>src\render\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\metal\SDL_shaders_metal_tvsimulator.h">
+      <Filter>src\render\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\ngage\SDL_render_ngage_c.h">
+      <Filter>src\render\ngage</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\opengl\SDL_glfuncs.h">
+      <Filter>src\render\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\opengl\SDL_shaders_gl.h">
+      <Filter>src\render\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\opengles2\SDL_gles2funcs.h">
+      <Filter>src\render\opengles2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\opengles2\SDL_shaders_gles2.h">
+      <Filter>src\render\opengles2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\psp\SDL_render_psp_c.h">
+      <Filter>src\render\psp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_blendfillrect.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_blendline.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_blendpoint.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_draw.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_drawline.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_drawpoint.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_render_sw_c.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\software\SDL_triangle.h">
+      <Filter>src\render\software</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vitagxm\SDL_render_vita_gxm_memory.h">
+      <Filter>src\render\vitagxm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vitagxm\SDL_render_vita_gxm_shaders.h">
+      <Filter>src\render\vitagxm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vitagxm\SDL_render_vita_gxm_tools.h">
+      <Filter>src\render\vitagxm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vitagxm\SDL_render_vita_gxm_types.h">
+      <Filter>src\render\vitagxm</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vulkan\SDL_shaders_vulkan.h">
+      <Filter>src\render\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vulkan\VULKAN_PixelShader_Advanced.h">
+      <Filter>src\render\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vulkan\VULKAN_PixelShader_Advanced_YUV.h">
+      <Filter>src\render\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vulkan\VULKAN_PixelShader_Colors.h">
+      <Filter>src\render\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vulkan\VULKAN_PixelShader_Textures.h">
+      <Filter>src\render\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vulkan\VULKAN_PixelShader_Textures_YUV.h">
+      <Filter>src\render\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\render\vulkan\VULKAN_VertexShader.h">
+      <Filter>src\render\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\sensor\SDL_sensor_c.h">
+      <Filter>src\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\sensor\SDL_syssensor.h">
+      <Filter>src\sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_casefolding.h">
+      <Filter>src\stdlib</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_getenv_c.h">
+      <Filter>src\stdlib</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_sysstdlib.h">
+      <Filter>src\stdlib</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\stdlib\SDL_vacopy.h">
+      <Filter>src\stdlib</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\storage\SDL_sysstorage.h">
+      <Filter>src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\SDL_systhread.h">
+      <Filter>src\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\SDL_thread_c.h">
+      <Filter>src\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\time\SDL_time_c.h">
+      <Filter>src\time</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\timer\SDL_timer_c.h">
+      <Filter>src\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_RLEaccel_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit_auto.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit_copy.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_blit_slow.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_clipboard_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_egl_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_pixels_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_rect_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_rect_impl.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_rotate.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_stb_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_surface_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_sysvideo.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_video_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_video_unsupported.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_vulkan_internal.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\SDL_yuv_c.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\miniz.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\stb_image.h">
+      <Filter>src\video</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb_common.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb_internal.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb_lsx.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb_lsx_func.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb_sse.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb_sse_func.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb_std.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\yuv2rgb\yuv_rgb_std_func.h">
+      <Filter>src\video\yuv2rgb</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\dummy\SDL_dummyaudio.h">
+      <Filter>src\audio\dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\disk\SDL_diskaudio.h">
+      <Filter>src\audio\disk</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\virtual\SDL_virtualjoystick_c.h">
+      <Filter>src\joystick\virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\dummy\SDL_nullevents_c.h">
+      <Filter>src\video\dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\dummy\SDL_nullframebuffer_c.h">
+      <Filter>src\video\dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\dummy\SDL_nullvideo.h">
+      <Filter>src\video\dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\SDL_directx.h">
+      <Filter>src\core\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\SDL_gameinput.h">
+      <Filter>src\core\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\SDL_hid.h">
+      <Filter>src\core\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\SDL_immdevice.h">
+      <Filter>src\core\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\SDL_windows.h">
+      <Filter>src\core\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\SDL_xinput.h">
+      <Filter>src\core\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\directsound\SDL_directsound.h">
+      <Filter>src\audio\directsound</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\audio\wasapi\SDL_wasapi.h">
+      <Filter>src\audio\wasapi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_msctf.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsclipboard.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsevents.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsframebuffer.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsgameinput.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowskeyboard.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsmessagebox.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsmodes.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsmouse.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsopengl.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsopengles.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsrawinput.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsshape.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsvideo.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowsvulkan.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\SDL_windowswindow.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\windows\wmmsg.h">
+      <Filter>src\video\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\generic\SDL_syscond_c.h">
+      <Filter>src\thread\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\thread\generic\SDL_sysrwlock_c.h">
+      <Filter>src\thread\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\sensor\windows\SDL_windowssensor.h">
+      <Filter>src\sensor\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\storage\steam\SDL_steamstorage_proc.h">
+      <Filter>src\storage\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\windows\SDL_dinputjoystick_c.h">
+      <Filter>src\joystick\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\windows\SDL_rawinputjoystick_c.h">
+      <Filter>src\joystick\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\windows\SDL_windowsjoystick_c.h">
+      <Filter>src\joystick\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\joystick\windows\SDL_xinputjoystick_c.h">
+      <Filter>src\joystick\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\haptic\windows\SDL_dinputhaptic_c.h">
+      <Filter>src\haptic\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\haptic\windows\SDL_windowshaptic_c.h">
+      <Filter>src\haptic\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenevents_c.h">
+      <Filter>src\video\offscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenframebuffer_c.h">
+      <Filter>src\video\offscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenopengles.h">
+      <Filter>src\video\offscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenvideo.h">
+      <Filter>src\video\offscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenvulkan.h">
+      <Filter>src\video\offscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\video\offscreen\SDL_offscreenwindow.h">
+      <Filter>src\video\offscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\gpu\d3d12\D3D12_Blit.h">
+      <Filter>src\gpu\d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\gpu\vulkan\SDL_gpu_vulkan_vkfuncs.h">
+      <Filter>src\gpu\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_assert.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_asyncio.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_atomic.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_audio.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_begin_code.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_bits.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_blendmode.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_camera.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_clipboard.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_close_code.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_copying.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_cpuinfo.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_dialog.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_dlopennote.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_egl.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_endian.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_error.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_events.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_filesystem.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_gamepad.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_gpu.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_guid.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_haptic.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_hidapi.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_hints.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_init.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_intrin.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_iostream.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_joystick.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_keyboard.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_keycode.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_loadso.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_locale.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_log.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_main.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_main_impl.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_messagebox.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_metal.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_misc.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_mouse.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_mutex.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_oldnames.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_opengl.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_opengl_glext.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_opengles.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_opengles2.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_opengles2_gl2.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_opengles2_gl2ext.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_opengles2_gl2platform.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_opengles2_khrplatform.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_pen.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_pixels.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_platform.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_platform_defines.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_power.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_process.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_properties.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_rect.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_render.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_scancode.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_sensor.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_stdinc.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_storage.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_surface.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_system.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_thread.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_time.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_timer.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_touch.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_tray.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_version.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_video.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\include\SDL3\SDL_vulkan.h">
+      <Filter>include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\build\SDL\include-revision\SDL3\SDL_revision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\build\SDL\CMakeFiles\SDL3-shared.dir\Debug\cmake_pch.h">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\build\SDL\CMakeFiles\SDL3-shared.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\build\SDL\CMakeFiles\SDL3-shared.dir\Release\cmake_pch.h">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\build\SDL\CMakeFiles\SDL3-shared.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\build\SDL\CMakeFiles\SDL3-shared.dir\MinSizeRel\cmake_pch.h">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\build\SDL\CMakeFiles\SDL3-shared.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\build\SDL\CMakeFiles\SDL3-shared.dir\RelWithDebInfo\cmake_pch.h">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Repositories\Intel8080 Emulator\build\SDL\CMakeFiles\SDL3-shared.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\SDL\src\core\windows\version.rc">
+      <Filter>src\core\windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{587D2290-5F82-3670-8A30-AB2CE9A7B793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{6EDF9144-9786-37A9-8343-6AAFAFA2E804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{97220E7A-0BF8-34E4-8F3E-0885E44D893F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1F3BEE91-2EBD-3C1F-AAFD-5C992FAF0D11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\SDL3">
+      <UniqueIdentifier>{B9D96532-99B9-3CD9-92BA-12FCAE07183E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{FA89D93C-6E6C-33BF-8D28-1400E743FF09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\atomic">
+      <UniqueIdentifier>{E4350CC6-83F6-39A2-93D5-9558A78DFD48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio">
+      <UniqueIdentifier>{05F7EB95-E532-3C6D-A08E-4C27CB408435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\directsound">
+      <UniqueIdentifier>{37C3CB57-572C-38C5-9687-89E16A41DF56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\disk">
+      <UniqueIdentifier>{A0186FB6-4FAE-38F3-82D3-00CE4A3441C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\dummy">
+      <UniqueIdentifier>{30AC1C3C-2BC1-3B19-A479-ACDFA3C8C41F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\audio\wasapi">
+      <UniqueIdentifier>{93B4B6EF-BA03-3C51-A25D-15F7F6D98379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\camera">
+      <UniqueIdentifier>{2293EE2F-6AAF-3C57-9BBD-697AF60A7EED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\camera\dummy">
+      <UniqueIdentifier>{07EB49FD-6385-3878-AE01-8BD2F1BB6D63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\camera\mediafoundation">
+      <UniqueIdentifier>{DBBE00FF-D6CB-3C99-87F4-E55BA5E56EB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{928097E9-ED97-3AA2-B05F-25D56015D229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\windows">
+      <UniqueIdentifier>{35BFA4BF-D3E6-3A9B-9521-7C1239A9B440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cpuinfo">
+      <UniqueIdentifier>{B43C21A8-2542-3497-911E-4E164F462803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dialog">
+      <UniqueIdentifier>{9048A863-EE6F-3D17-8BA6-D7650DE44C3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dialog\windows">
+      <UniqueIdentifier>{823A6105-B76A-3AF2-9843-F4B9115FC8AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dynapi">
+      <UniqueIdentifier>{1D28EA8B-18E5-396E-A57B-0AB97B877FDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\events">
+      <UniqueIdentifier>{B61D86BE-48AD-3E76-84F8-CCAB23D65CD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem">
+      <UniqueIdentifier>{DFD2AADF-D302-338D-9710-039A636E437D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem\windows">
+      <UniqueIdentifier>{38747B8E-508F-3D5E-95F8-30608BDF6AFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gpu">
+      <UniqueIdentifier>{93AE9BFF-A9B4-3424-94ED-BD5B82463E3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gpu\d3d12">
+      <UniqueIdentifier>{7499E02B-D800-30C2-B27E-688C97D26284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gpu\vulkan">
+      <UniqueIdentifier>{31C5C046-2833-31FE-9755-EE88A60A5CEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\haptic">
+      <UniqueIdentifier>{6029003A-D094-3325-B2BA-43D673AF0102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\haptic\hidapi">
+      <UniqueIdentifier>{2AC91B98-3838-36B2-9099-DAA8E1CA3FAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\haptic\windows">
+      <UniqueIdentifier>{39CF0ED7-4797-306E-A640-7EF360A699F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hidapi">
+      <UniqueIdentifier>{FCD0890E-CE94-3AA8-8E4A-34D320CDE6B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io">
+      <UniqueIdentifier>{55BBC4E4-97C9-36D9-915D-C9047C310321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io\generic">
+      <UniqueIdentifier>{175E774E-6491-34E4-ABED-4C60BA2006F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io\windows">
+      <UniqueIdentifier>{CD9934FC-5325-372B-BB61-5BC629A310EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick">
+      <UniqueIdentifier>{28C761FB-CBB5-35AC-9B00-1444A4CEA741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\gdk">
+      <UniqueIdentifier>{83DEB6FC-72DC-3118-B174-0523FFD71608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\hidapi">
+      <UniqueIdentifier>{E3E3CC61-6FD4-3E66-BBBC-93CF9CD11D17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\virtual">
+      <UniqueIdentifier>{7E3FAFCB-B0BF-3389-84F8-161B47D5C337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\joystick\windows">
+      <UniqueIdentifier>{D7D88F28-8B6D-3541-9AC5-7F8D758D2C35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\loadso">
+      <UniqueIdentifier>{E9FD56B8-DF55-3952-BBAA-E2914DD9C903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\loadso\windows">
+      <UniqueIdentifier>{AC3E6E57-2C1D-3ED2-BF99-F43D9528B940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locale">
+      <UniqueIdentifier>{01D95F78-72CF-37DB-ACF0-B5AF0BBB3042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\locale\windows">
+      <UniqueIdentifier>{66616106-6204-3AE7-B907-9E5EA8796781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main">
+      <UniqueIdentifier>{A68E99EE-BAA5-3064-B37D-3189C16FC999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\generic">
+      <UniqueIdentifier>{51238648-39B1-3540-BAA7-3708DA910827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main\windows">
+      <UniqueIdentifier>{D51525EC-8D97-3E2A-844B-421F13CE398E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc">
+      <UniqueIdentifier>{8A6F387F-0514-331C-8765-08A0B7EABFB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc\windows">
+      <UniqueIdentifier>{46900278-2331-3358-8FED-480C8D231135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power">
+      <UniqueIdentifier>{159BD648-5391-3334-B440-57B658724157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\power\windows">
+      <UniqueIdentifier>{D037D8F9-EB1D-3AB7-B798-F95F59787254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\process">
+      <UniqueIdentifier>{E5BCD1EE-4D4D-34EB-913B-C057A40D9903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\process\windows">
+      <UniqueIdentifier>{6A3F791B-9024-3BE5-973D-00A9399FFE83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render">
+      <UniqueIdentifier>{207B3C2B-450D-316C-8C45-34D090B02878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\direct3d">
+      <UniqueIdentifier>{A582F172-8014-3F6F-9883-70579C1F52D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\direct3d11">
+      <UniqueIdentifier>{104DDD6B-FF3A-312A-9494-82B1F5870B01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\direct3d12">
+      <UniqueIdentifier>{B284FF1A-8F92-3FC9-9ABC-DD08A93B9F4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\gpu">
+      <UniqueIdentifier>{B2EB44C3-BB88-305D-B1CF-F3AE99FBFCDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\metal">
+      <UniqueIdentifier>{01B1E8A4-F9A0-34C5-B63B-3E2B15E1C7EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\ngage">
+      <UniqueIdentifier>{93F8E9AC-DEFA-3C60-9BA0-64A92534F1B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\opengl">
+      <UniqueIdentifier>{DE5458FB-8028-3FA1-8687-ED2E1B56FDB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\opengles2">
+      <UniqueIdentifier>{D2856729-EF9D-3AC1-825D-B6CB81C1678F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\ps2">
+      <UniqueIdentifier>{84E0843D-F4B8-3CA5-96FE-40A24E9E7581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\psp">
+      <UniqueIdentifier>{97438A0C-AB35-370C-A61E-94AAB56D5F00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\software">
+      <UniqueIdentifier>{A151277D-047C-3B75-A6A9-5EAFCF651CD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\vitagxm">
+      <UniqueIdentifier>{698D4BD4-6347-3507-9DD1-BE4201C92792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\vulkan">
+      <UniqueIdentifier>{E436ECD3-006A-3348-9E21-3678DECC9B3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sensor">
+      <UniqueIdentifier>{71D78613-AB73-3ADB-97CF-A53307F1A91D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sensor\windows">
+      <UniqueIdentifier>{1C45E7B2-FB9D-3902-8327-6B8F206C3F61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stdlib">
+      <UniqueIdentifier>{C9CB285D-F726-390B-BA4B-8DB3B3394762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\storage">
+      <UniqueIdentifier>{BCB6128D-40C4-3012-832D-DB70CCCD5FB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\storage\generic">
+      <UniqueIdentifier>{AD7788F3-BCF5-3538-8C16-CCE170E4F3CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\storage\steam">
+      <UniqueIdentifier>{A394889D-FC76-3820-A42F-22AF69E43272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread">
+      <UniqueIdentifier>{82D2EE0C-D53D-3EA8-8D32-BE26870F094F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\generic">
+      <UniqueIdentifier>{1975DBC8-FB3E-3030-8955-9CE02336F09A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread\windows">
+      <UniqueIdentifier>{72269889-F7C8-3F63-96C5-419AED87EA38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\time">
+      <UniqueIdentifier>{95AAC3FA-7DBA-3279-A9B9-755B907ACFEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\time\windows">
+      <UniqueIdentifier>{3D2CD0BF-4A2B-38A0-86B2-F56F59AF3FD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer">
+      <UniqueIdentifier>{EA5E1200-353F-381D-9AD4-A7109E0F38AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer\windows">
+      <UniqueIdentifier>{25902E57-9ED2-3F20-915D-DE96913CD88F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tray">
+      <UniqueIdentifier>{A2EF2318-C602-30C1-B561-CC21364AD4E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tray\windows">
+      <UniqueIdentifier>{E426C7C9-9293-33C3-8C18-A1BC478475A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video">
+      <UniqueIdentifier>{4F7B2005-B156-39C6-91D3-EE55E8BF9DBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\dummy">
+      <UniqueIdentifier>{8BF1BC1D-B6AD-3CDD-ACCA-E26BE634EDA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\offscreen">
+      <UniqueIdentifier>{519B41AB-7AE6-30C2-83DD-EBA1151C1E3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\windows">
+      <UniqueIdentifier>{18CE8F00-15D6-3CA7-B158-E600150643BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\video\yuv2rgb">
+      <UniqueIdentifier>{F3958F23-D04A-3589-A78A-FD5DF53D437C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

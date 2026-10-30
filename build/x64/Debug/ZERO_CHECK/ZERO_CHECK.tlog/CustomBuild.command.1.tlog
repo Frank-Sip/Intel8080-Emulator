@@ -1,0 +1,10 @@
+^F:\GITHUB\REPOSITORIES\INTEL8080 EMULATOR\BUILD\CMAKEFILES\92A418EC539D45D8E3B2B1F3CD4EA9CD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SF:/GitHub/Repositories/Intel8080 Emulator" "-BF:/GitHub/Repositories/Intel8080 Emulator/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "F:/GitHub/Repositories/Intel8080 Emulator/build/SpaceInvadersEmulator.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
