@@ -2,6 +2,7 @@
 #include "KeyboardSDL.h"
 #include "Logger.h"
 #include "SDLDisplay.h"
+#include "SoundSDL.h"
 #include "SpaceInvadersMachine.h"
 
 int main(int argc, char** argv)
@@ -33,9 +34,11 @@ int main(int argc, char** argv)
 
     DisplaySDL display;
     KeyboardSDL keyboard;
+    SoundSDL sound;
     SpaceInvadersMachine machine;
     machine.SetDisplay(&display);
     machine.SetKeyboard(&keyboard);
+    machine.SetSound(&sound);
     machine.Init(parser.GetRomFileName());
     machine.Run();
     machine.Deinit();

@@ -12,6 +12,7 @@ class Bus8080;
 class CPU8080;
 class Display;
 class Keyboard;
+class Sound;
 
 class SpaceInvadersMachine
 {
@@ -24,6 +25,7 @@ class SpaceInvadersMachine
     CPU8080* m_cpu;
     Display* m_display;
     Keyboard* m_keyboard;
+    Sound* m_sound;
 
     //Machine state
     bool m_emulatorRunning;
@@ -58,6 +60,7 @@ public:
     void Stop();
     void SetDisplay(Display* display);
     void SetKeyboard(Keyboard* keyboard);
+    void SetSound(Sound* sound);
 };
 
 #endif
