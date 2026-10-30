@@ -1,6 +1,5 @@
 #include "cmdLineParser.h"
 #include "KeyboardSDL.h"
-#include "Logger.h"
 #include "SDLDisplay.h"
 #include "SoundSDL.h"
 #include "SpaceInvadersMachine.h"
