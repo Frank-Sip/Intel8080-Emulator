@@ -48,6 +48,8 @@ void DisplaySDL::Draw(std::span<const uint8_t> videoMemory)
 
     const Uint32 black = SDL_MapSurfaceRGB(m_surface, 0, 0, 0);
     const Uint32 white = SDL_MapSurfaceRGB(m_surface, 255, 255, 255);
+    const Uint32 green = SDL_MapSurfaceRGB(m_surface, 0, 255, 0);
+    const Uint32 red = SDL_MapSurfaceRGB(m_surface, 255, 0, 0);
 
     if (!SDL_FillSurfaceRect(m_surface, nullptr, black))
     {
@@ -67,8 +69,23 @@ void DisplaySDL::Draw(std::span<const uint8_t> videoMemory)
 
             const int screenY = SCREEN_HEIGHT - 1 - (verticalByte * 8 + bit);
             SDL_Rect pixelRect{screenX * SCALE, screenY * SCALE, SCALE, SCALE};
+            Uint32 pixelColor = white;
 
-            if (!SDL_FillSurfaceRect(m_surface, &pixelRect, white))
+            if (screenY >= 192)
+            {
+                pixelColor = green;
+
+                if (screenY >= 240 && (screenX <= 16 || screenX >= SCREEN_WIDTH - 122))
+                {
+                    pixelColor = white;
+                }
+            }
+            else if (screenY >= 40 && screenY <= 50)
+            {
+                pixelColor = red;
+            }
+
+            if (!SDL_FillSurfaceRect(m_surface, &pixelRect, pixelColor))
             {
                 m_logger->Log("Failed to draw pixel: " + std::string(SDL_GetError()), ELogLevel::ERROR);
                 return;

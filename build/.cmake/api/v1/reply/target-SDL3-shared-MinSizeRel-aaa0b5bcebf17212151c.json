@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "SDL/RelWithDebInfo/SDL3.dll"
+			"path" : "SDL/MinSizeRel/SDL3.dll"
 		},
 		{
-			"path" : "SDL/RelWithDebInfo/SDL3.lib"
+			"path" : "SDL/MinSizeRel/SDL3.lib"
 		},
 		{
-			"path" : "SDL/RelWithDebInfo/SDL3.pdb"
+			"path" : "SDL/MinSizeRel/SDL3.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -722,7 +722,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -std:c++20 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -std:c++20 -MD"
 				},
 				{
 					"backtrace" : 11,
@@ -733,7 +733,7 @@
 					"fragment" : "/W3"
 				},
 				{
-					"fragment" : "\"/YcF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/RelWithDebInfo/cmake_pch.hxx\" \"/FpF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/SDL3-shared.dir/RelWithDebInfo/cmake_pch.cxx.pch\" \"/FIF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/RelWithDebInfo/cmake_pch.hxx\""
+					"fragment" : "\"/YcF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/MinSizeRel/cmake_pch.hxx\" \"/FpF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/SDL3-shared.dir/MinSizeRel/cmake_pch.cxx.pch\" \"/FIF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/MinSizeRel/cmake_pch.hxx\""
 				}
 			],
 			"defines" : 
@@ -774,7 +774,7 @@
 			[
 				{
 					"backtrace" : 21,
-					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-relwithdebinfo/build_config"
+					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-minsizerel/build_config"
 				},
 				{
 					"backtrace" : 21,
@@ -819,7 +819,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /Zi /O2 /Ob1 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /O1 /Ob1 /DNDEBUG -MD"
 				},
 				{
 					"backtrace" : 11,
@@ -830,7 +830,7 @@
 					"fragment" : "/W3"
 				},
 				{
-					"fragment" : "\"/YcF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/RelWithDebInfo/cmake_pch.h\" \"/FpF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/SDL3-shared.dir/RelWithDebInfo/cmake_pch.c.pch\" \"/FIF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/RelWithDebInfo/cmake_pch.h\""
+					"fragment" : "\"/YcF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/MinSizeRel/cmake_pch.h\" \"/FpF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/SDL3-shared.dir/MinSizeRel/cmake_pch.c.pch\" \"/FIF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/MinSizeRel/cmake_pch.h\""
 				}
 			],
 			"defines" : 
@@ -871,7 +871,7 @@
 			[
 				{
 					"backtrace" : 21,
-					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-relwithdebinfo/build_config"
+					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-minsizerel/build_config"
 				},
 				{
 					"backtrace" : 21,
@@ -916,7 +916,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /Zi /O2 /Ob1 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /O1 /Ob1 /DNDEBUG -MD"
 				},
 				{
 					"backtrace" : 11,
@@ -927,7 +927,7 @@
 					"fragment" : "/W3"
 				},
 				{
-					"fragment" : "\"/YuF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/RelWithDebInfo/cmake_pch.h\" \"/FpF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/SDL3-shared.dir/RelWithDebInfo/cmake_pch.c.pch\" \"/FIF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/RelWithDebInfo/cmake_pch.h\""
+					"fragment" : "\"/YuF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/MinSizeRel/cmake_pch.h\" \"/FpF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/SDL3-shared.dir/MinSizeRel/cmake_pch.c.pch\" \"/FIF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/MinSizeRel/cmake_pch.h\""
 				}
 			],
 			"defines" : 
@@ -968,7 +968,7 @@
 			[
 				{
 					"backtrace" : 21,
-					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-relwithdebinfo/build_config"
+					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-minsizerel/build_config"
 				},
 				{
 					"backtrace" : 21,
@@ -1247,7 +1247,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /Zi /O2 /Ob1 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /O1 /Ob1 /DNDEBUG -MD"
 				},
 				{
 					"backtrace" : 11,
@@ -1296,7 +1296,7 @@
 			[
 				{
 					"backtrace" : 21,
-					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-relwithdebinfo/build_config"
+					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-minsizerel/build_config"
 				},
 				{
 					"backtrace" : 21,
@@ -1341,7 +1341,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /Zi /O2 /Ob1 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /O1 /Ob1 /DNDEBUG -MD"
 				},
 				{
 					"backtrace" : 11,
@@ -1355,7 +1355,7 @@
 					"fragment" : " /GL-"
 				},
 				{
-					"fragment" : "\"/YuF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/RelWithDebInfo/cmake_pch.h\" \"/FpF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/SDL3-shared.dir/RelWithDebInfo/cmake_pch.c.pch\" \"/FIF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/RelWithDebInfo/cmake_pch.h\""
+					"fragment" : "\"/YuF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/MinSizeRel/cmake_pch.h\" \"/FpF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/SDL3-shared.dir/MinSizeRel/cmake_pch.c.pch\" \"/FIF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/MinSizeRel/cmake_pch.h\""
 				}
 			],
 			"defines" : 
@@ -1396,7 +1396,7 @@
 			[
 				{
 					"backtrace" : 21,
-					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-relwithdebinfo/build_config"
+					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-minsizerel/build_config"
 				},
 				{
 					"backtrace" : 21,
@@ -1441,7 +1441,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -std:c++20 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -std:c++20 -MD"
 				},
 				{
 					"backtrace" : 11,
@@ -1452,7 +1452,7 @@
 					"fragment" : "/W3"
 				},
 				{
-					"fragment" : "\"/YuF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/RelWithDebInfo/cmake_pch.hxx\" \"/FpF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/SDL3-shared.dir/RelWithDebInfo/cmake_pch.cxx.pch\" \"/FIF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/RelWithDebInfo/cmake_pch.hxx\""
+					"fragment" : "\"/YuF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/MinSizeRel/cmake_pch.hxx\" \"/FpF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/SDL3-shared.dir/MinSizeRel/cmake_pch.cxx.pch\" \"/FIF:/GitHub/Repositories/Intel8080 Emulator/build/SDL/CMakeFiles/SDL3-shared.dir/MinSizeRel/cmake_pch.hxx\""
 				}
 			],
 			"defines" : 
@@ -1493,7 +1493,7 @@
 			[
 				{
 					"backtrace" : 21,
-					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-relwithdebinfo/build_config"
+					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-minsizerel/build_config"
 				},
 				{
 					"backtrace" : 21,
@@ -1582,7 +1582,7 @@
 			[
 				{
 					"backtrace" : 21,
-					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-relwithdebinfo/build_config"
+					"path" : "F:/GitHub/Repositories/Intel8080 Emulator/build/SDL/include-config-minsizerel/build_config"
 				},
 				{
 					"backtrace" : 21,
@@ -1612,11 +1612,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 4,
-			"id" : "SDL_uclibc::@e7c329919722962a2ad4"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 4,
+			"id" : "SDL_uclibc::@e7c329919722962a2ad4"
 		}
 	],
 	"id" : "SDL3-shared::@e7c329919722962a2ad4",
@@ -1625,7 +1625,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
 				"role" : "flags"
 			},
 			{
@@ -1635,7 +1635,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "RelWithDebInfo\\SDL_uclibc.lib",
+				"fragment" : "MinSizeRel\\SDL_uclibc.lib",
 				"role" : "libraries"
 			},
 			{

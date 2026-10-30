@@ -5,7 +5,7 @@
 		"commands" : [],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"SDL/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -20,16 +20,22 @@
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "SpaceInvadersEmulator::@6890427a1f51a3e7e1df"
+			"id" : "SDL3-shared::@e7c329919722962a2ad4"
+		},
+		{
+			"id" : "SDL3_test::@e7c329919722962a2ad4"
+		},
+		{
+			"id" : "SDL_uclibc::@e7c329919722962a2ad4"
 		}
 	],
-	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"id" : "ALL_BUILD::@e7c329919722962a2ad4",
 	"isGeneratorProvided" : true,
 	"name" : "ALL_BUILD",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "SDL",
+		"source" : "SDL"
 	},
 	"sources" : [],
 	"type" : "UTILITY"

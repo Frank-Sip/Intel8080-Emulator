@@ -104,11 +104,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "SDL3-shared::@e7c329919722962a2ad4"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 3,
+			"id" : "SDL3-shared::@e7c329919722962a2ad4"
 		}
 	],
 	"id" : "SpaceInvadersEmulator::@6890427a1f51a3e7e1df",
