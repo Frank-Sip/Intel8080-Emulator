@@ -7,7 +7,7 @@
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\Bus8080.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\CPU.cpp">
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\CPU8080.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\KeyboardSDL.cpp">

@@ -1230,7 +1230,7 @@
 			"paths" : 
 			[
 				"F:/GitHub/Repositories/Intel8080 Emulator/src/Bus8080.cpp",
-				"F:/GitHub/Repositories/Intel8080 Emulator/src/CPU.cpp",
+				"F:/GitHub/Repositories/Intel8080 Emulator/src/CPU8080.cpp",
 				"F:/GitHub/Repositories/Intel8080 Emulator/src/KeyboardSDL.cpp",
 				"F:/GitHub/Repositories/Intel8080 Emulator/src/Logger.cpp",
 				"F:/GitHub/Repositories/Intel8080 Emulator/src/RomLoader.cpp",

@@ -374,7 +374,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\main.cpp" />
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\Bus8080.cpp" />
-    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\CPU.cpp" />
+    <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\CPU8080.cpp" />
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\KeyboardSDL.cpp" />
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\Logger.cpp" />
     <ClCompile Include="F:\GitHub\Repositories\Intel8080 Emulator\src\RomLoader.cpp" />
