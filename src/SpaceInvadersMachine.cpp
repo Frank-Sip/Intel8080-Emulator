@@ -6,6 +6,7 @@
 #include "Bus8080.h"
 #include "CPU8080.h"
 #include "Display.h"
+#include "Keyboard.h"
 #include "RomLoader.h"
 
 SpaceInvadersMachine::SpaceInvadersMachine()
@@ -14,14 +15,15 @@ SpaceInvadersMachine::SpaceInvadersMachine()
     m_bus = new Bus8080();
     m_cpu = new CPU8080(m_bus);
     m_display = nullptr;
+    m_keyboard = nullptr;
 
     m_emulatorRunning = false;
     m_nextInterruptCycle = CYCLES_PER_INTERRUPT;
     m_nextInterruptIsMidScreen = true;
 
-    m_inputPort0 = 0;
-    m_inputPort1 = 0;
-    m_inputPort2 = 0;
+    m_inputPorts[0] = 0;
+    m_inputPorts[1] = 0;
+    m_inputPorts[2] = 0;
     m_outputPort3 = 0;
     m_outputPort5 = 0;
     m_shiftRegister = 0;
@@ -62,6 +64,7 @@ void SpaceInvadersMachine::Init(const std::filesystem::path& romPath)
     m_cpu->SetOutputHandler([this](uint8_t port, uint8_t value) { WritePort(port, value); });
 
     if (m_display) m_display->Init();
+    if (m_keyboard) m_keyboard->Init();
 
     m_logger->Log("Space Invaders machine initialized", ELogLevel::INFO);
 }
@@ -96,6 +99,7 @@ void SpaceInvadersMachine::Deinit()
 {
     m_emulatorRunning = false;
     m_cpu->Deinit();
+    if (m_keyboard) m_keyboard->Deinit();
     if (m_display) m_display->Deinit();
     m_logger->Log("Space Invaders machine deinitialized", ELogLevel::INFO);
 }
@@ -110,11 +114,16 @@ void SpaceInvadersMachine::SetDisplay(Display* display)
     m_display = display;
 }
 
+void SpaceInvadersMachine::SetKeyboard(Keyboard* keyboard)
+{
+    m_keyboard = keyboard;
+}
+
 void SpaceInvadersMachine::InitPorts()
 {
-    m_inputPort0 = 0x0E;
-    m_inputPort1 = 0x08;
-    m_inputPort2 = 0x00;
+    m_inputPorts[0] = 0x0E;
+    m_inputPorts[1] = 0x08;
+    m_inputPorts[2] = 0x00;
     m_outputPort3 = 0;
     m_outputPort5 = 0;
 }
@@ -123,9 +132,11 @@ uint8_t SpaceInvadersMachine::ReadPort(uint8_t port)
 {
     switch (port)
     {
-        case 0: return m_inputPort0;
-        case 1: return m_inputPort1;
-        case 2: return m_inputPort2;
+        case 0:
+        case 1:
+        case 2:
+            return m_inputPorts[port];
+
         case 3: return static_cast<uint8_t>(m_shiftRegister >> (8 - m_shiftOffset));
         default: return 0;
     }
@@ -158,6 +169,12 @@ void SpaceInvadersMachine::WritePort(uint8_t port, uint8_t value)
 
 void SpaceInvadersMachine::GenerateInterrupt()
 {
+    if (m_keyboard)
+    {
+        m_keyboard->Update(m_inputPorts, &m_emulatorRunning);
+        if (!m_emulatorRunning) return;
+    }
+
     if (m_nextInterruptIsMidScreen)
     {
         m_cpu->RequestInterrupt(1);

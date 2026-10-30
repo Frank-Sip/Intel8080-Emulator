@@ -12,59 +12,73 @@ KeyboardSDL::~KeyboardSDL() {}
 
 void KeyboardSDL::Init() {}
 
-void KeyboardSDL::Update(uint8_t* key_map, bool* running)
+void KeyboardSDL::Update(uint8_t* inputPorts, bool* running)
 {
     SDL_Event event;
 
     while (SDL_PollEvent(&event) != 0)
     {
-        if (event.type == SDL_EVENT_KEY_DOWN)
-        {
-            switch (event.key.key)
-            {
-                case SDLK_1: key_map[0x1] = 1; break;
-                case SDLK_2: key_map[0x2] = 1; break;
-                case SDLK_3: key_map[0x3] = 1; break;
-                case SDLK_4: key_map[0xC] = 1; break;
-                case SDLK_Q: key_map[0x4] = 1; break;
-                case SDLK_W: key_map[0x5] = 1; break;
-                case SDLK_E: key_map[0x6] = 1; break;
-                case SDLK_R: key_map[0xD] = 1; break;
-                case SDLK_A: key_map[0x7] = 1; break;
-                case SDLK_S: key_map[0x8] = 1; break;
-                case SDLK_D: key_map[0x9] = 1; break;
-                case SDLK_F: key_map[0xE] = 1; break;
-                case SDLK_Z: key_map[0xA] = 1; break;
-                case SDLK_X: key_map[0x0] = 1; break;
-                case SDLK_C: key_map[0xB] = 1; break;
-                case SDLK_V: key_map[0xF] = 1; break;
-            }
-        }
-        else if (event.type == SDL_EVENT_KEY_UP)
-        {
-            switch (event.key.key)
-            {
-                case SDLK_1: key_map[0x1] = 0; break;
-                case SDLK_2: key_map[0x2] = 0; break;
-                case SDLK_3: key_map[0x3] = 0; break;
-                case SDLK_4: key_map[0xC] = 0; break;
-                case SDLK_Q: key_map[0x4] = 0; break;
-                case SDLK_W: key_map[0x5] = 0; break;
-                case SDLK_E: key_map[0x6] = 0; break;
-                case SDLK_R: key_map[0xD] = 0; break;
-                case SDLK_A: key_map[0x7] = 0; break;
-                case SDLK_S: key_map[0x8] = 0; break;
-                case SDLK_D: key_map[0x9] = 0; break;
-                case SDLK_F: key_map[0xE] = 0; break;
-                case SDLK_Z: key_map[0xA] = 0; break;
-                case SDLK_X: key_map[0x0] = 0; break;
-                case SDLK_C: key_map[0xB] = 0; break;
-                case SDLK_V: key_map[0xF] = 0; break;
-            }
-        }
-        else if (event.type == SDL_EVENT_QUIT)
+        if (event.type == SDL_EVENT_QUIT)
         {
             *running = false;
+            continue;
+        }
+
+        if (event.type != SDL_EVENT_KEY_DOWN && event.type != SDL_EVENT_KEY_UP) continue;
+
+        const bool pressed = event.type == SDL_EVENT_KEY_DOWN;
+
+        const auto setInputBit = [inputPorts, pressed](uint8_t port, uint8_t bit)
+        {
+            const uint8_t mask = static_cast<uint8_t>(1u << bit);
+
+            if (pressed)
+            {
+                inputPorts[port] |= mask;
+            }
+            else
+            {
+                inputPorts[port] &= static_cast<uint8_t>(~mask);
+            }
+        };
+
+        switch (event.key.key)
+        {
+            case SDLK_RETURN:
+                setInputBit(1, 0);
+                break;
+
+            case SDLK_1:
+                setInputBit(1, 2);
+                break;
+
+            case SDLK_2:
+                setInputBit(1, 1);
+                break;
+
+            case SDLK_SPACE:
+                setInputBit(0, 4);
+                setInputBit(1, 4);
+                setInputBit(2, 4);
+                break;
+
+            case SDLK_A:
+            case SDLK_LEFT:
+                setInputBit(0, 5);
+                setInputBit(1, 5);
+                setInputBit(2, 5);
+                break;
+
+            case SDLK_D:
+            case SDLK_RIGHT:
+                setInputBit(0, 6);
+                setInputBit(1, 6);
+                setInputBit(2, 6);
+                break;
+
+            case SDLK_DELETE:
+                setInputBit(2, 2);
+                break;
         }
     }
 }

@@ -91,14 +91,6 @@ bool DisplaySDL::Update()
         return false;
     }
 
-    SDL_PumpEvents();
-
-    if (SDL_HasEvent(SDL_EVENT_QUIT))
-    {
-        SDL_FlushEvent(SDL_EVENT_QUIT);
-        return false;
-    }
-
     return true;
 }
 

@@ -1,7 +1,5 @@
-#include <exception>
-#include <string>
-
 #include "cmdLineParser.h"
+#include "KeyboardSDL.h"
 #include "Logger.h"
 #include "SDLDisplay.h"
 #include "SpaceInvadersMachine.h"
@@ -23,9 +21,7 @@ int main(int argc, char** argv)
             case 2: logger->SetLogLevel(ELogLevel::WARNING); break;
             case 3: logger->SetLogLevel(ELogLevel::ERROR); break;
             case 4: logger->SetLogLevel(ELogLevel::DEBUG); break;
-            default:
-                logger->Log("Log level must be between 0 and 4", ELogLevel::ERROR);
-                return 1;
+            default: logger->Log("Log level must be between 0 and 4", ELogLevel::ERROR); return 1;
         }
     }
 
@@ -36,21 +32,13 @@ int main(int argc, char** argv)
     }
 
     DisplaySDL display;
+    KeyboardSDL keyboard;
     SpaceInvadersMachine machine;
     machine.SetDisplay(&display);
-
-    try
-    {
-        machine.Init(parser.GetRomFileName());
-        machine.Run();
-        machine.Deinit();
-    }
-    catch (const std::exception& exception)
-    {
-        logger->Log("Emulator error: " + std::string(exception.what()), ELogLevel::ERROR);
-        machine.Deinit();
-        return 1;
-    }
+    machine.SetKeyboard(&keyboard);
+    machine.Init(parser.GetRomFileName());
+    machine.Run();
+    machine.Deinit();
 
     return 0;
 }

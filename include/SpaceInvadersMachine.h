@@ -11,6 +11,7 @@
 class Bus8080;
 class CPU8080;
 class Display;
+class Keyboard;
 
 class SpaceInvadersMachine
 {
@@ -22,6 +23,7 @@ class SpaceInvadersMachine
     Bus8080* m_bus;
     CPU8080* m_cpu;
     Display* m_display;
+    Keyboard* m_keyboard;
 
     //Machine state
     bool m_emulatorRunning;
@@ -29,9 +31,7 @@ class SpaceInvadersMachine
     bool m_nextInterruptIsMidScreen;
 
     //Input ports
-    uint8_t m_inputPort0;
-    uint8_t m_inputPort1;
-    uint8_t m_inputPort2;
+    uint8_t m_inputPorts[3];
 
     //Output ports
     uint8_t m_outputPort3;
@@ -57,6 +57,7 @@ public:
     void Deinit();
     void Stop();
     void SetDisplay(Display* display);
+    void SetKeyboard(Keyboard* keyboard);
 };
 
 #endif

@@ -12,10 +12,10 @@ class KeyboardSDL : public Keyboard
 
 public:
     KeyboardSDL();
-    ~KeyboardSDL();
+    ~KeyboardSDL() override;
 
     void Init() override;
-    void Update(uint8_t* key_map, bool* running) override;
+    void Update(uint8_t* inputPorts, bool* running) override;
     void Deinit() override;
 };
 
